@@ -7,7 +7,9 @@ All lecture videos can be found [here](https://sites.google.com/view/deep-rl-boo
 This lab consists of three problems:
 
 1. [Problem 1: Value Iteration](src/problem_1.ipynb) 
+
 	![](results/frozen_lake.png)
+	
 	* This problem focuses on learning how to play "Frozen Lake"
 		* Frozen lake is won by getting to goal `G` by only stepping on frozen water `F` while avoiding holes `H`.
 		* Can we use reinforcement learning to train an agent to beat this game? Yes.
