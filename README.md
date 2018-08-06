@@ -2,7 +2,7 @@
 
 All lecture videos can be found [here](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 
-## Summary:
+## Notes:
 
 This lab consists of three problems:
 
