@@ -4,8 +4,8 @@
 
 This lab consists of three problems:
 
-1. [Problem 1](src/problem1.ipynb) 
-	* Value iteration 
+1. [Problem 1: Value Iteration](src/problem_1.ipynb) 
+	* The main idea is that if we can learn the "value" of each state, we can choose the action that has the highest expected value.
 	* Iteratively learning what the value is for each state:
 	* ![value_iteration](results/value_iteration.png)
 	* What the heck is the equation saying above?
@@ -18,9 +18,16 @@ This lab consists of three problems:
 		* What is `P`?
 			*`P` is the probability of ending up in state `s'` if we start in state `s` and take action `a`
 			* Taking an action in a certain state may not always result in the same "next state". These state transitions may be stochastic. 
-2. [Problem 2](src/problem2.ipynb)
-	* Policy iteration 
-3. [Problem 3](src/problem3.ipynb)
+	* Once we know the values of each state, we can make an optimal policy:
+	* ![](results/value_iteration_policy.png)
+2. [Problem 2: Policy Iteration](src/problem_2.ipynb)
+	* Very similar concept to value iteration
+	a. We start with a policy that takes a random action within each state
+	b. With the current policy, we can calculate the value of each state (don't even have to iterate since we have a linear set of equations) ![](results/policy_iteration_value.png)
+	c. Calculate the quality (Q) for each state/action pair. This is done using the current policy.
+	d. Update the current policy to take the action that results in the highest quality.
+	e. Return to step "b." until convergence
+3. [Problem 3](src/problem_3.ipynb)
 	* Sampling based Q-learning
 
 Turn this:
