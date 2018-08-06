@@ -1,5 +1,7 @@
 # [Lab 1 of Reinforcement Learning Bootcamp](https://drive.google.com/file/d/0B1BwaUH2mk-EdXI5dzlLbWl5R0E/view)
 
+All lecture videos can be found [here](https://sites.google.com/view/deep-rl-bootcamp/lectures)
+
 ## Summary:
 
 This lab consists of three problems:
