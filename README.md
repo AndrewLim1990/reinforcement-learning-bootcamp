@@ -9,7 +9,7 @@ This lab consists of three problems:
 1. [Problem 1: Value Iteration](src/problem_1.ipynb) 
 
 	![](results/frozen_lake.png)
-	
+
 	* This problem focuses on learning how to play "Frozen Lake"
 		* Frozen lake is won by getting to goal `G` by only stepping on frozen water `F` while avoiding holes `H`.
 		* Can we use reinforcement learning to train an agent to beat this game? Yes.
@@ -26,7 +26,7 @@ This lab consists of three problems:
 		* `V(s')` is the "value" at the next state `s'`
 		* The value of a state, `V(s)`, is the maximum expected reward over all possible actions. (this is what the "max a" thing is trying to say)
 		* What is `P`?
-			*`P` is the probability of ending up in state `s'` if we start in state `s` and take action `a`
+			* `P` is the probability of ending up in state `s'` if we start in state `s` and take action `a`
 			* Taking an action in a certain state may not always result in the same "next state". State transitions may be stochastic. The ice is slippy.
 	* Once we "learn" the values of each state, we can make an optimal policy:
 	![](results/value_iteration_policy.png)
